@@ -1,0 +1,177 @@
+/* 
+
+.div-banner-principal img {
+    width: 100%;
+}
+
+.secao-eventos hr {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B51D44;
+}
+
+.secao-eventos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conjunto-cards {
+    display: flex;
+}
+
+.cartao-evento {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 250px;
+    width: 225px;
+    margin: 0 15px;
+    border: 2px solid #821B47;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.link-evento {
+    color: #B51D44;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.banner-secundario {
+    background-image: url("../../assets/img/marsalinha.png");
+    width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.banner-secundario h2 {
+    margin-top: 20px;
+}
+
+.banner-secundario hr {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.texto-secundario {
+    width: 800px;
+    font-size: small;
+}
+
+secao-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #00000055;
+}
+
+.secao-contato h2 {
+    margin-top: 20px;
+}
+
+.secao-contato hr {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B51D44;
+}
+
+.area-contato {
+    
+    display: flex;
+    
+    
+}
+
+.mapa-local {
+    margin-right: 20px;
+}
+
+.info-local {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.linha-final {
+    width: 100%;
+    border-bottom: solid 2px #00000055;
+}
+
+.visao{
+    font-size: 16px;
+    text-align: center;
+}
+
+.secao-contato{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-contato{
+    height: 410px;
+    margin-bottom: 40px;
+}
+
+.mapa-local{
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.botao{
+    margin-right: -121px;
+    margin-top: -24px;
+ 
+}
+
+.cabecalho button {
+    height: 40px;
+    width: 110px;
+    background-color: #610315;
+    color: aliceblue;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.cabecalho img {
+    height: 25px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+ */

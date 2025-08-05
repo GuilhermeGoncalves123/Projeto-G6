@@ -1,0 +1,130 @@
+.lista_evento {
+    min-height: calc(100vh - (75px + 40px));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.lista_evento .linha_titulo {
+    max-width: 120px;
+   width: 100%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: #610315;
+   margin-top: 5px;
+   margin-bottom: 20px;
+}
+
+.lista_evento .tabela_listagem {
+    width: 57%;
+    margin-top: 30px;
+}
+
+.lista_evento .tabela_listagem table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lista_evento .tabela_listagem .cabecalho_listagem :first-child{
+    width: 200px;
+
+}
+
+
+.lista_evento .tabela_listagem .cabecalho_listagem :nth-child(2){
+    width: 500px;
+}
+
+.lista_evento .tabela_listagem th{
+    width: 100px;   
+}
+
+
+.dividi td {
+
+    padding: 20px 20px 10px 7px ;
+}
+.espaco td{
+    padding: 50px 20px 10px 7px ;
+}
+
+.item_listagem{
+    text-align: center;
+    border-bottom:  solid 1px #73061B20;
+
+}
+
+
+.lista_evento h1{
+    color: black;
+    font-size: smaller;
+}
+
+.cabecalho_listagem th{
+    color: black;
+    font-size: small;
+    padding-bottom: 5px;
+
+}
+
+.cabecalho_listagem{
+    border-bottom: #610315 1px solid;
+    margin-bottom: 30px;
+    
+}
+
+.item_listagem {
+    border-bottom: black 1px solid;
+    
+}
+
+.seletor select{
+    min-width: 150px;
+    margin-bottom: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .tabela_listagem thead{
+        display: none;
+    }
+
+
+    .item_listagem td{
+        display: grid;
+        text-align: left;
+        padding: 10px 10px 10px 0;
+        grid-template-columns: 10ch auto;
+
+    }
+
+
+    .item_listagem td::before{
+        content: attr(data-cell) ":";
+        font-weight: 700;
+        width: 80px;
+        text-align: left;
+    }
+
+    .item_listagem td:last-child{
+        margin-bottom: 24px;
+    }
+
+    .item_listagem td:first-child{
+        margin-top: 24px;
+    }
+
+
+    .item_listagem img {
+        margin-left: 30px;
+    }
+
+}
+
+
